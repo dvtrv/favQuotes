@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Quotes</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <main class="container">
-      <h1 class="quotes-header">Random Quotes</h1>
+      <h1 class="header">Random Quotes</h1>
       <section class="quotes-section">
-        <p class="quote-text">Click "Generate quote", please</p>
-        <p class="quote-author">and you'll see the magic!</p>
+        <div class="quote-wrapper">
+          <p class="quote-text">Click "Generate quote", please</p>
+          <p class="quote-author">and you'll see the magic!</p>
+        </div>
+        <div class="btns-wrapper">
+          <button class="btn primary-btn generate-btn">Generate quote</button>
+          <button class="btn secondary-btn favorite-btn">Fav</button>
+        </div>
       </section>
-      <button class="btn generateBtn">Generate quote</button>
+      <section class="fav-section">
+        <h2 class="header">Favourite quotes</h2>
+        <ul class="cards-wrapper">
+          <!-- <li class="fav-card">
+            <p class="fav-card-quote">
+              "Television has brought back murder into the home - where it
+              belongs."
+            </p>
+            <p class="fav-card-author">— Alfred Hitchcock</p>
+          </li> -->
+        </ul>
+      </section>
     </main>
     <script type="module" src="./script.js"></script>
   </body>

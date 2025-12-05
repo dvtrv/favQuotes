@@ -1,0 +1,110 @@
+/* 1200px+ — desktops */
+@media (min-width: 1200px) {
+  .container {
+    padding: 48px;
+  }
+
+  .quote-wrapper {
+    height: 80vh;
+  }
+
+  .quote-text {
+    font-size: 60px;
+  }
+}
+
+/* 1024–1200px — desktops */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .container {
+    padding: 48px;
+  }
+  .quote-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 80vh;
+  }
+  .quote-text {
+    font-size: 60px;
+  }
+}
+
+/* 768–1023px — tablets */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+
+  .quote-wrapper {
+    height: 80vh;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .quote-text {
+    font-size: 40px;
+  }
+
+  .header {
+    font-size: 22px;
+  }
+}
+
+/* 576–767px — large phones / small tablets */
+@media (max-width: 767px) and (min-width: 576px) {
+  .container {
+    padding: 48px;
+  }
+
+  .quote-wrapper {
+    height: 78vh;
+  }
+
+  .quote-text {
+    font-size: 40px;
+  }
+
+  .fav-card {
+    flex: 0 0 calc(50% - 12px);
+  }
+}
+
+/* 375–575px — mobile phones */
+@media (max-width: 575px) {
+  .container {
+    padding: 24px 16px;
+  }
+
+  .quotes-section {
+    gap: 16px;
+  }
+  .quote-wrapper {
+    height: 78vh;
+    gap: 24px;
+  }
+
+  .quote-text {
+    font-size: 28px;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .btns-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .cards-wrapper {
+    gap: 16px;
+  }
+
+  .fav-card {
+    flex: 1 1 100%;
+    min-height: auto;
+  }
+}
